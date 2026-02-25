@@ -41,7 +41,11 @@ function zoom() {
         }
     else 
         {
-        $("body").css("transform","scale("+(winH/winW)+")");
+            if(winH > winW){
+                $("body").css("transform","scale("+(winH/winW)+")");
+            }else{
+                $("body").css("transform","scale("+(winW/winH)+")");
+            }
         $("body").css("position","fixed");
         //處理忽然變全螢幕事件
         }
