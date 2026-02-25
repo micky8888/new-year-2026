@@ -44,7 +44,7 @@ function zoom() {
             if(winH > winW){
                 $("body").css("transform","scale("+(winH/winW)+")");
             }else{
-                $("body").css("transform","scale("+(winW/winH)+")");
+                $("body").css("transform","scale(1)");
             }
         $("body").css("position","fixed");
         //處理忽然變全螢幕事件
