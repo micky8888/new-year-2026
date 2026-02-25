@@ -20,7 +20,7 @@ function zoom() {
     var winH = $(window).height();
     var winW = $(window).width();
     //取得窗口長寬，同對適用於F11全螢幕
-
+/*
     var winH2 = winH/650
     var winW2 = winW/650
     //上面2個數字650反復調試得到
@@ -44,5 +44,6 @@ function zoom() {
         $("body").css("transform","scale(1)");
         //處理忽然變全螢幕事件
         }
+        */
     };
 
