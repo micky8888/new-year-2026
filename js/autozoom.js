@@ -27,7 +27,7 @@ function zoom() {
     //直接以除法獲得與標準尺寸的比例
 
     
-    if (winH2<1 || winW2<1)
+    /*if (winH2<1 || winW2<1)
         {
         if (winH2<winW2) 
             {
@@ -40,8 +40,9 @@ function zoom() {
         //按比例缩放
         }
     else 
-        {
+        {*/
         $("body").css("transform","scale(3)");
         //處理忽然變全螢幕事件
-        }
+        /*}
     };
+*/
