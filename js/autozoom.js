@@ -41,7 +41,7 @@ function zoom() {
         }
     else 
         {
-        $("body").css("transform","scale(2)");
+        $("body").css("transform","scale(3)");
         //處理忽然變全螢幕事件
         }
     };
